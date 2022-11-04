@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="all" id="all">
+        <div class="header">
+            <h1 class="header-title" id="header-title">Rakhimzhanov-Store</h1>
+            <div class="car-info">
+                <h3 class="hundai-elantra" id="hundai-elantra">Hundai Elantra</h3>
+                <p>Описание:<span id="characteristic"></span></p>
+                <p>Цена:<span id="price"></span></p>
+                <p>Цена в далларах:<span  id="price-dollar"></span></p>
+                <button id="submit">Заказать</button>
+            </div>
+        </div>
+        
+        
+        <div class="car" id="car">
+            <img src="./image/white.jpg" alt="Car" id="color-cust">
+            <div class="container-box">
+                <form id="box" action="">
+                    <h3>Настрой автомобиль</h3>
+                    
+                    <div class="config" id="radio-button">
+                        <div class="radio-button" >
+                            <h4>Двигатель</h4>
+
+                            <br>
+
+                            <div class="radio-button-title">
+                                <input type="radio" name="engine" id="1.6l" value="1000000" checked>
+                                <label for="1.6l">1.6 л (100 л.с.)</label>
+                            </div>
+
+                            <br>
+
+                            <div class="radio-button-title">
+                                <input type="radio" name="engine" id="2.0l" value="2000000">
+                                <label for="2.0l">2.0 л (200 л.с.)</label>
+                            </div>
+                            
+                        </div>
+                        <div class="radio-button">
+                            <h4>Коробка передач</h4>
+
+                            <br>
+
+                            <div class="radio-button-title">
+                                <input type="radio" name="korobka" id="meckanic" value="1000000" checked>
+                                <label for="meckanic">Ручная, 6 ступеней (6МТ)</label>
+                            </div>
+
+                            <br>
+
+                            <div class="radio-button-title">
+                                <input type="radio" name="korobka" id="auto" value="2000000">
+                                <label for="auto">Автомат, 6 ступеней (6АТ)</label>
+                            </div>
+                          
+                        </div>
+                        <div class="radio-button">
+                            <h4>Пакет (Комплектация машины)</h4>
+                            <div class="radio-button-title">
+                                <input type="radio" name="paket" id="active" value="5000000" checked>
+                                <label for="active">Active</label>
+                            </div>
+
+                            <br>
+
+                            <div class="radio-button-title">
+                                <input type="radio" name="paket" id="comfort" value="6000000">
+                                <label for="comfort">Comfort</label>
+                            </div>
+
+                            <br>
+                            
+                            <div class="radio-button-title">
+                                <input type="radio" name="paket" id="business" value="7000000">
+                                <label for="business">Business</label>
+                            </div>
+                          
+                        </div>
+                    </div>
+                    <h4>Цвет</h4>
+                    <div class="custom-color" id="custom-color">
+                        <div class="color red" id="red" data-img-cust="image/red.jpg"></div>
+                        <div class="color blue" id="blue" data-img-cust="image/blue.jpg"></div>
+                        <div class="color black" id="black" data-img-cust="image/black.jpg"></div>
+                        <div class="color silver" id="silver" data-img-cust="image/metal.jpg"></div>
+                        <div class="color amazon-grey" id="amazon-grey" data-img-cust="image/amazon-grey.jpg"></div>
+                        <div class="color cyber-grey" id="cyber-grey" data-img-cust="image/cyber-grey.jpg"></div>
+                        <div class="color orange" id="orange" data-img-cust="image/orange.jpg"></div>
+                        <div class="color electric-shadow" id="electric-shadow" data-img-cust="image/electric-shadow.jpg"></div>
+                        <div class="color white" id="white" data-img-cust="image/white.jpg"></div>
+                    </div>
+
+                </form>
+            </div>  
+        </div>
+           
+        
+        
+    </div>
+
+
+    <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
